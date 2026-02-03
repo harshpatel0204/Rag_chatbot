@@ -1,0 +1,23 @@
+# RAG Chatbot Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core frameworks
+streamlit>=1.28.0
+langchain>=0.1.0
+langchain-groq>=0.1.0
+langchain-core>=0.1.0
+langchain-text-splitters
+
+# PDF processing
+PyPDF2>=3.0.0
+
+# Embeddings
+sentence-transformers>=2.2.0
+
+# Vector store
+faiss-cpu>=1.7.4
+
+# Additional utilities
+numpy>=1.24.0
+tf-keras
+python-dotenv>=1.0.0
